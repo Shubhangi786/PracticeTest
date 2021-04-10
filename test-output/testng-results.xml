@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23513" started-at="2021-04-10T00:02:40 IST" finished-at="2021-04-10T00:03:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23513" started-at="2021-04-10T00:02:40 IST" finished-at="2021-04-10T00:03:04 IST">
+      <class name="TutorialPointTests.ValidateLogo">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:TutorialPointTests.ValidateLogo@7f6b8c]" name="initBrowser" is-config="true" duration-ms="7691" started-at="2021-04-10T00:02:40 IST" finished-at="2021-04-10T00:02:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="validateLogo()[pri:0, instance:TutorialPointTests.ValidateLogo@7f6b8c]" name="validateLogo" duration-ms="15765" started-at="2021-04-10T00:02:48 IST" finished-at="2021-04-10T00:03:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+      </class> <!-- TutorialPointTests.ValidateLogo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
