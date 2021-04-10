@@ -1,4 +1,5 @@
 package TutorialPointTests;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -19,6 +20,10 @@ public class ValidateLogo extends TestBase {
 	@Test
 	public void validateLogo() throws InterruptedException {
 		homepage.clickOnJvatpontLogo();
+	}
+	@AfterMethod
+	public void tearDown() {
+		System.out.println("End");
 	}
 
 }
