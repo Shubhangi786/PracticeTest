@@ -24,6 +24,7 @@ public class ValidateLogo extends TestBase {
 	@AfterMethod
 	public void tearDown() {
 		System.out.println("End");
+		System.out.println("Test case passed");
 	}
 
 }
